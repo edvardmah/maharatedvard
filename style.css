@@ -482,4 +482,8 @@ nav.black{
         position: fixed;
         margin-left: -130px;
     }   
+	
+   .gmail_administration{
+        font-size: 13px;
+    }
 }
