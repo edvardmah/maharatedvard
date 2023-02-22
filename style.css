@@ -470,10 +470,20 @@ nav.black{
     .text_nav{
         font-size: 32px;
     }
-
+    .menu_open{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        position: fixed;
+        margin-left: -130px;
+    }  
 }
 
 @media screen and (max-width: 320px) {
+    .gmail_administration{
+        font-size: 13px;
+    }
     .menu_open{
         display: flex;
         align-items: center;
@@ -482,8 +492,4 @@ nav.black{
         position: fixed;
         margin-left: -130px;
     }   
-	
-   .gmail_administration{
-        font-size: 13px;
-    }
 }
