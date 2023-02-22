@@ -461,7 +461,7 @@ nav.black{
         justify-content: flex-end;
         width: 100%;
         position: fixed;
-        margin-left: -130px;
+        margin-left: -40px;
     }   
 
 }
@@ -476,7 +476,7 @@ nav.black{
         justify-content: flex-end;
         width: 100%;
         position: fixed;
-        margin-left: -130px;
+        margin-left: -50px;
     }  
 }
 
@@ -490,6 +490,6 @@ nav.black{
         justify-content: flex-end;
         width: 100%;
         position: fixed;
-        margin-left: -130px;
+        margin-left: -40px;
     }   
 }
