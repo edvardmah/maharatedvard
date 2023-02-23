@@ -492,4 +492,13 @@ nav.black{
         position: fixed;
         margin-left: -40px;
     }   
+    .nav_bar.\.show_menu {
+    padding-top: 1281px;
+    display: block;
+    width: 100%;
+    background: #000;
+    margin-left: -125px;
+    height: 1153px;
+    transition: 2s;
+}
 }
