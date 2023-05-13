@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    background-image: url(./img/design/bg\ header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name_programer_header{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 88px;
+    color: #fff;
+    
+}
+
+.skils_header{
+    color: #fff2f2;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+.about_header{
+    color: #fff2f2;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.black{
+    background-color: #000;
+    transition: 1s;
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+.continut_header{
+    margin-left: 50px;
+    
+}
+
+header .show_menu{
+    display: block;
+    height: 310px;
+    background: rgb(10, 10, 10);
+    width: 160px;
+    margin-top: 203px;        
+}
+
+.header .text_nav{
+    align-items: center;
+    display: flex;
+}
+
+.logo_nav{
+    height: 55px;
+    margin-left: 45px;
+    border-radius: 6px;
+}
+
+.text_nav{
+    color: white;
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 33px 33px;
+}
+
+.text_nav:hover{
+    color: rgb(240, 233, 223);
+}
+
+.title_header{
+    font-family: 'Montagu Slab', serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+.down{
+    height: 66px;
+    width: 207px;
+    background-color: #42A5F5;
+    border-radius: 33px;
+    margin-left: 14px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.menu_open{
+    display: none;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.title_about{
+    font-size: 44px;
+}
+
+.about_text{
+    width: 800px;
+    font-size: 23px;
+}
+
+.content_about, .img_about{
+    margin: 0px 35px;
+}
+
+.project {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: grid;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.img_project{
+    height: 333px;
+}
+
+.content_project{
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.title_project{
+    font-size: 55px;
+    margin-bottom: 17px;
+}
+
+.content_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_contact{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.box_contact{
+    margin: 30px 20px;
+}
+
+.contact_photo{
+    max-height: 150px;
+    border-radius: 100%;
+}
+
+.contact{
+    text-align: center;
+    display: block;
+    margin-top: 55px;
+}
+
+.number{
+    font-size: 33px;
+    color: #000;
+    font-weight: bold;
+}
+
+.phone_img{
+    height: 33px;
+}
+
+.lang {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 55px;
+}
+
+.switch_lang, .switch_lang {
+    font-size: 22px;
+    margin: -44px;
+    color: #fff;
+    margin-right: 61px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about_text{
+        width: 505px;
+    }
+
+    .content_project{
+        width: 1000px;
+    }
+
+    .img_project{
+        height: 222px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about_text {
+        width: 348px;
+        font-size: 16px;
+    }
+
+    .img_about{
+        height: 303px;
+    }
+
+    .content_project{
+        width: 580px;
+    }
+
+    .img_project{
+        height: 162px;
+    }
+
+    .text_nav{
+        margin: 33px 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about_text {
+        width: 348px;
+        font-size: 16px;
+    }
+
+    .img_about{
+        height: 303px;
+    }
+
+    .content_project{
+        width: 424px;
+    }
+
+    .img_project{
+        height: 110px;
+    }
+
+    .text_nav{
+        display: none;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .contact_photo{
+        height: 100px;
+    }
+
+    .header{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about_text {
+        width: 348px;
+        font-size: 16px;
+    }
+
+    .img_about{
+        height: 303px;
+    }
+
+    .content_project{
+        width: 374px;
+    }
+
+    .img_project{
+        height: 100px;
+    }
+
+    .text_nav{
+        display: none;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .contact_photo{
+        height: 98px;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .skils_header{
+        width: 267px;
+    }
+
+    .about_header{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about_text {
+        width: 281px;
+        font-size: 16px;
+    }
+
+    .img_about{
+        height: 303px;
+    }
+
+    .content_project{
+        width: 299px;
+    }
+
+    .img_project{
+        height: 150px;
+    }
+
+    .text_nav{
+        display: none;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .contact_photo{
+        height: 66px;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .skils_header{
+        width: 267px;
+    }
+
+    .about_header{
+        width: 220px;
+    }
+    .name_programer_header {
+        font-size: 75px;
+    }
+}
